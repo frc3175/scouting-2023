@@ -4,43 +4,18 @@
   "skipTeamSelection": true,
   "pages": [
     {
-      "name": "Team",
+      "name": "Robot",
       "widgets": [
         {
           "name": "Team Number",
           "type": "number"
         },
         {
-          "name": "Drive Coach",
-          "type": "text"
-        },
-        {
-          "name": "Driver Names",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "name": "Robot",
-      "widgets": [
-        {
-          "name": "Height",
+          "name": "Length (ask kindly to measure)",
           "type": "number"
         },
         {
-          "name": "Length",
-          "type": "number"
-        },
-        {
-          "name": "Width",
-          "type": "number"
-        },
-        {
-          "name": "Wheel to bumper distance",
-          "type": "number"
-        },
-        {
-          "name": "Weight",
+          "name": "Width (ask kindly to measure)",
           "type": "number"
         },
         {
@@ -55,43 +30,9 @@
           ]
         },
         {
-          "name": "Swerve Type",
-          "type": "dropdown",
-          "options": [
-            "No swerve",
-            "L1",
-            "L2",
-            "L3",
-            "L4",
-            "Neo",
-            "Falcon"
-          ]
-        },
-        {
-          "name": "Has Driver Camera",
-          "type": "checkbox"
-        }
-      ]
-    },
-    {
-      "name": "Match Play",
-      "widgets": [
-        {
-          "name": "Dock Time",
-          "type": "number"
-        },
-        {
-          "name": "Cycle time",
-          "type": "number"
-        },
-        {
-          "name": "Parking",
-          "type": "multicheckbox",
-          "options": [
-            "Parking",
-            "Docking",
-            "Engaging"
-          ]
+          "name": "What do they do in autonomous?",
+          "type": "textarea",
+          "colspan": 3
         },
         {
           "name": "Can Pick Up",
@@ -100,6 +41,17 @@
             "Cones",
             "Tipped Cones",
             "Cubes"
+          ]
+        },
+        {
+          "name": "Scoring Locations",
+          "type": "multicheckbox",
+          "options": [
+            "Level 1",
+            "Cones Level 2",
+            "Cubes Level 2",
+            "Cones Level 3",
+            "Cubes Level 3"
           ]
         },
         {

@@ -1,2 +1,2 @@
-matches
+match-scouting
 pits
